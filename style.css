@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    color: rgb(7, 86, 33);
+}
+
+#tittle{
+    background-image: url(img/laser.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#box{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(7, 86, 33, 0.268);
+}
+
+#btnGo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+#btnReset{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+#caracterId{
+    color: rgb(242, 242, 242);
+}
+
+#img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display:flex ;
+    justify-content: center;    
+}
